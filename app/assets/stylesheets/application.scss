@@ -13,3 +13,22 @@
  *= require_tree .
  *= require_self
  */
+
+@import "articles";
+
+.container h3 {
+  font-size: 30px;
+  font-family: $font-heading;
+}
+
+.container p {
+  font-family: $font-paragraph;
+  font-size: 16px;
+}
+
+.icon-edit a {
+  font-size: 30px;
+  &:hover {
+    text-decoration: none;
+  }
+}
